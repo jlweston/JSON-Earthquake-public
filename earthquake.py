@@ -6,10 +6,10 @@ from datetime import date
 import datetime
 import tweepy, time, sys
 
-CONSUMER_KEY = 'SZfKwBkcsVHDRGsVatLswuRjC'#keep the quotes, replace this with your consumer key
-CONSUMER_SECRET = 'J75Gsaqt4piamI58ktlQgLJYuDvtec6G5DBjm9zUVDL1DdPmYs'#keep the quotes, replace this with your consumer secret key
-ACCESS_KEY = '3134034665-4IsYbJ7fhfDNjqaJ0V12wHc1FdLi4x0ECK7MtQy'#keep the quotes, replace this with your access token
-ACCESS_SECRET = 'FWFOFmDIw0bjxMdvB5ee9yRtfzFbypA2iw86owvAfUklE'#keep the quotes, replace this with your access token secret
+CONSUMER_KEY = 'xxxxxxxxxxxxxxxxxxxx'#keep the quotes, replace this with your consumer key
+CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxx'#keep the quotes, replace this with your consumer secret key
+ACCESS_KEY = 'xxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxx'#keep the quotes, replace this with your access token
+ACCESS_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'#keep the quotes, replace this with your access token secret
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
